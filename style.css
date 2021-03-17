@@ -1,0 +1,288 @@
+:root {
+    font-size: 19px;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+	margin:0px;
+	padding:0px;
+}
+
+body {
+	background-color: #9be8d8;
+	font-family: 'Alegreya Sans', sans-serif;
+	line-height: 1.3;
+	margin-right: 0;
+	margin-left: 0;
+  }
+
+main {
+   float: center;
+   width: 100%;
+}
+
+
+p{
+	margin-bottom:0.7rem;
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	/*border: 1px solid red;*/
+}
+
+p,
+ul,
+ol {
+    color: #5f5f5f;
+	padding: 0 20px 0 20px;
+}
+
+
+
+article {
+	width: 100%;
+	margin: 0;
+	padding: 0px;
+	display: block;
+	/*width: 100%;
+	max-width: 1000px;
+	border: 10px solid yellow;*/
+}
+
+.rojo {
+	background-color: #ff3f38;
+	width: 100%;
+}
+
+
+
+figure{
+	display: block;
+	margin: 0;
+}
+
+
+
+img {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 100%;
+	/*border: 1px solid yellow;*/
+}
+
+
+#header {
+	padding: 0 0 10px 20px;
+}
+#header img {
+    max-width: 500px;
+    padding: 20px;
+}
+
+header{
+	display: block;
+	margin: 100px 0 20px 0;
+}
+
+hr{
+	color:rgb(38, 208, 58);
+	border: 1px solid;
+}
+ .gris hr {
+ 	color: #5f5f5f;
+	border: 0.5px dotted;
+}
+
+h2 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 2rem;
+	line-height: 0.8;
+	font-weight: 100;
+	margin-bottom:0.7rem;
+	padding: 0 20px 0 20px;
+	width: 100%;
+	max-width: 800px;
+}
+
+h3 {
+		font-size: 1.5rem;
+		font-weight: 400;
+}
+
+h4{
+	margin-bottom:0.5rem;
+}
+
+
+footer {
+	width: 100%;
+	max-width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px 20px 20px 20px;
+}
+footer p {
+    color: black;
+	font-size: 1rem;
+	margin-bottom:0.7rem;
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+kbd {
+	font-size: 0.95rem;
+	background: #d4f6d8; 
+	display: inline;
+}
+
+a {
+	color: #ff3f38;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+	text-decoration: none;
+	background-color: #ff3f38;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+blockquote {
+	font-size: 0.7rem;
+	font-family: 'Roboto Mono', monospace;
+	margin: 20px 0 20px 0;
+	padding: 10px 20px 10px 20px;
+	background-color: #f0faf1;
+    color: #5f5f5f;
+	width: 100%;
+	max-width: 800px;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.codigo {
+	display: block;
+	background: #F4F4F4;
+	border: 1px solid grey;
+	padding: 10px;
+	margin: 20px 0 20px 0;
+	font-family: 'Roboto Mono', monospace;
+	font-size: 0.7rem;
+	line-height: 1.4;
+}
+
+footer ul {
+	font-size: 0.8rem; 
+	margin: 100px 0 50px 0;
+	padding: 0 0 0 30px;
+	list-style: square;
+	list-style-position: outside;
+}
+
+/* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
+
+
+nav {
+    background-color: white;
+    position: fixed; /* con esto hago que el header que contiene la botonera quede fijo */
+    z-index: 10; /* la propiedad z-index ordena que elelemto va arriba y que va abajo —layers— donde 0 es el elemento que esta debajo de todo */
+    top: 0px; /* aca indico que este a 0 pixeles del top */
+    width: 100%;
+    max-width: 100%; /* que ancho tendrá el header puede estar en porcentaje o px */
+    clear: both;
+}
+
+
+.nav {
+    padding: 15px 0 0 0;
+}
+.nav ul li {
+    list-style: none; /*esto le saca el bolet */
+    padding: 0px 0px; /*esto le saca la sangria a la lista */
+}
+
+.nav li {
+    list-style: none;
+    padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.logo {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+    overflow: auto;
+    display: block;
+    float: left;
+}
+
+.logo > a img {
+    max-height: 50px;
+    vertical-align: middle;
+    padding: 10px 0 0 0;
+}
+
+.nav > li {
+    /* ahora, los elementos li que esten directamente adentro de la clase nav, esto se indica con el signo <, seguiran las siguientes reglas */
+    float: right; /* el float left hace que la lista que esta inmediatamente despues de la etiqueta nav se posicionan desde el margen izquierdo en sentido horizontal, la lista fluye hacia el costado, vemos que las sublistas se siguen acomodando para abajo */
+}
+
+.nav li a {
+    /* todos los elementos a, que esten dentro de li que esten dentro de la clase nav seguirán las reglas a continuanción */
+    background-color: white; /* color de fondo */
+    color: black; /* color de la tipografia */
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    text-decoration: none; /*como es un link por deafult el navegador lo subraya, al poner non decoration, saca ese subrayado */
+    padding: 15px 15px;
+    display: block; /* por defaul la caja que toma el navegador es la caja typografica inline, al darle un color de fondo, backgroud color, estamos haciendo que tenga una caja cuadrada de fondo que es mas grande que la caja tipografia, para que el navegador lea esta caja de color y no la caja tipografica, agregamos la propiedad display con el valor block en lugar de inline */
+}
+
+.nav li a:hover {
+    /* aqui doy formato a los elementos a dentro de la lista dentro de la clase nav cuando el maus pasa por encima de ellos */
+    background-color: #323232; /*#333333 gris frio /*solo cambio el color de fondo*/
+    color: white;
+}
+
+.nav li ul {
+    /*aqui creamos las reglas que seguiran los submenues*/
+    display: none; /*propiedad display valor none, hace que las sublistas no se vean*/
+    position: absolute; /*esto es para que el tamaño de la caja sea igual al de la caja del menu principal*/
+    min-width: 200px;
+    padding: 0px; /*esto le saca la sangria a la lista */
+}
+
+.nav li:hover > ul {
+    /* aquí hacemos que cuando pasamos con el maus (:hover) las sublistas directas de la lista que esta dentro de nav aparezcan debajo según el tambaño de la caja de color, no de la caja tipografica */
+    display: block;
+}
+
+.nav li ul li {
+    /*aqui formateamos la sublista de la sublista de la lista dentro de nav*/
+    position: relative; /*la posicion relativa hace que este sub menu aparezca al lado y no debajo, como ocurriría si ponemos absoluto*/
+    background-color: #FAFBFC;
+}
+
+.nav li ul li ul {
+    right: -200px; /*acá estamos diciendo que la posicion relativa sea 140 pixeles a la derecha (recordando que la caja tiene 140 pixeles) y que se alinie a 0 pixeles del menú que le da origen*/
+    top: 0px;
+}
+
+
+
+
+
