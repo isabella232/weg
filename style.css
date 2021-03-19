@@ -39,17 +39,13 @@ ol {
 	padding: 0 20px 0 20px;
 }
 
-
-
 article {
 	width: 100%;
 	margin: 0;
 	padding: 0px;
 	display: block;
-	/*width: 100%;
-	max-width: 1000px;
-	border: 10px solid yellow;*/
 }
+
 article figure {
     max-width: 1400px;
     margin: auto;
@@ -60,7 +56,27 @@ article figure {
 	width: 100%;
 }
 
+.rojo2 {
+	background-color: #ED3C32;
+	width: 100%;
+}
 
+.rojo3 {
+	background-color: #F0453D;
+	width: 100%;
+}
+
+
+.verde2 {
+	background: rgb(60,167,152);
+	background: linear-gradient(90deg, rgba(60,167,152,1) 0%, rgba(148,201,191,1) 50%);
+	width: 100%;
+}
+
+.verde3 {
+	background-color: #67E5D4;
+	width: 100%;
+}
 
 figure{
 	display: block;
@@ -73,18 +89,11 @@ img {
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	max-width: 100%;
+	width: 100%;
+	max-width: 1000px;
 	/*border: 1px solid yellow;*/
 }
 
-
-#header {
-	padding: 0 0 10px 20px;
-}
-#header img {
-    max-width: 500px;
-    padding: 20px;
-}
 
 header{
 	display: block;
@@ -228,21 +237,6 @@ nav {
     list-style: none;
     padding: 0px 0px;
     margin: 0px 0px;
-}
-
-.logo {
-    display: block;
-    margin: 0px;
-    padding: 0px;
-    overflow: auto;
-    display: block;
-    float: left;
-}
-
-.logo > a img {
-    max-height: 50px;
-    vertical-align: middle;
-    padding: 10px 0 0 0;
 }
 
 .nav > li {
