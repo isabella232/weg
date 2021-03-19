@@ -50,6 +50,10 @@ article {
 	max-width: 1000px;
 	border: 10px solid yellow;*/
 }
+article figure {
+    max-width: 1400px;
+    margin: auto;
+}
 
 .rojo {
 	background-color: #ff3f38;
@@ -139,7 +143,7 @@ footer p {
 
 kbd {
 	font-size: 0.95rem;
-	background: #d4f6d8; 
+	background: #d4f6d8;
 	display: inline;
 }
 
@@ -185,7 +189,7 @@ blockquote {
 }
 
 footer ul {
-	font-size: 0.8rem; 
+	font-size: 0.8rem;
 	margin: 100px 0 50px 0;
 	padding: 0 0 0 30px;
 	list-style: square;
