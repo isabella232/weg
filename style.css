@@ -78,11 +78,6 @@ article figure {
 	width: 100%;
 }
 
-figure{
-	display: block;
-	margin: 0;
-}
-
 
 
 img {
@@ -91,7 +86,6 @@ img {
 	margin-left: auto;
 	width: 100%;
 	max-width: 1000px;
-	/*border: 1px solid yellow;*/
 }
 
 
@@ -209,6 +203,15 @@ footer ul {
 	padding: 0 0 0 30px;
 	list-style: square;
 	list-style-position: outside;
+}
+
+.logo {
+    display: block;
+    margin: 0px;
+    padding: 0px;
+   	overflow: auto;
+    display: block;
+    float: left;
 }
 
 /* |||||| ESTILOS DE LA BARRA DE NAVEGACION |||||| */
