@@ -109,6 +109,17 @@ blockquote p {
 	width: 100%;
 }
 
+.verdeazul{
+  background: rgb(102,175,160);
+  background: linear-gradient(90deg, rgba(102,175,160,1) 49%, rgba(52,69,87,1) 51%);
+}
+
+.blanco {
+  display: block;
+  background: white;
+  padding:20px 0 20px 0;
+  margin: 0;
+}
 
 img {
 	display: block;
