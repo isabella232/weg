@@ -9,7 +9,7 @@
 }
 
 body {
-	background-color: #9be8d8;
+	background-color: #9ce6d7;
 	font-family: 'Alegreya Sans', sans-serif;
 	line-height: 1.3;
 	margin-right: 0;
@@ -135,7 +135,7 @@ hr{
 	color:rgb(38, 208, 58);
 	border: 1px solid;
 }
- 
+
 
 a {
 	color: #ff3f38;
@@ -167,22 +167,26 @@ a:active {
 /* A PARITR DE AQUI EL ESTILO DE LA BOTONERA */
 /* Add a black background color to the top navigation */
 
-nav {
-	float: center;
-}
 
 .topnav {
   background-color: white;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
-
+}
+* {
+    /* outline: solid 1px; */
 }
 
 .topnav .weg {
-  font-weight: 600;
-  color: #ff3f38
-} 
+    background: url(./img/ht.svg) 14px center no-repeat;
+    padding-left: 52px;
+    background-size: 28px 28px;
+}
+
+.topnav i {
+    margin-left: 0.5em;
+}
 
 /* Style the links inside the navigation bar */
 
@@ -201,7 +205,7 @@ nav {
 /* Add an active class to highlight the current page */
 
 .active {
-  background-color: white; /* rojo #ff3f38 ||| verde #9be8d8 */
+  background-color: white; /* rojo #ff3f38 ||| verde #9ce6d7 */
   color: white;
 }
 
@@ -221,7 +225,7 @@ nav {
 /* Style the dropdown button to fit inside the topnav */
 
 .dropdown .dropbtn {
-  font-size: 15px;    
+  font-size: 15px;
   border: none;
   outline: none;
   color: black;
@@ -238,7 +242,7 @@ nav {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #9be8d8;
+  background-color: #9ce6d7;
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -258,7 +262,7 @@ nav {
 /* Add a dark background on topnav links and the dropdown button on hover */
 
 .topnav a:hover, .dropdown:hover .dropbtn {
-  background-color: #9be8d8;
+  background-color: #9ce6d7;
   color: black;
 }
 
@@ -277,7 +281,7 @@ nav {
 
 
 /* When the screen is less than 600 pixels wide,
- hide all links, except for the first one ("Home"). 
+ hide all links, except for the first one ("Home").
  Show the link that contains should open and close the topnav (.icon) */
 
 @media screen and (max-width: 500px) {
@@ -295,7 +299,7 @@ nav {
 /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
 
 @media screen and (max-width: 500px) {
-  .topnav.responsive {position: relative;
+  .topnav.responsive {
     position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */}
