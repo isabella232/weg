@@ -264,6 +264,7 @@ footer img{
   margin: 10px 0 20px 0;
 }
 
+
 @media screen and (min-width: 700px) {
     .row:after {
         display: block;
