@@ -104,6 +104,10 @@ blockquote p {
   background: #272530; 
 }
 
+.verde{
+  background: #9ce6d7;; 
+}
+
 .verde2 {
 background: rgb(62,168,152);
 background: linear-gradient(90deg, rgba(62,168,152,1) 49%, rgba(130,192,184,1) 51%);
